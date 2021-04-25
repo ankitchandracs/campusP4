@@ -1,0 +1,7 @@
+table_add IngressProcess.trusted_dhcp_client IngressProcess.pkt_fwd 00:00:00:00:01:01/48 => 00:00:00:00:01:02 2
+
+
+ table_add IngressProcess.trusted_dhcp_server IngressProcess.pkt_fwd 10.0.1.2/32 => 00:00:00:00:01:01 1
+
+
+ table_add IngressProcess.trusted_dhcp_server IngressProcess.pkt_fwd 10.0.1.1/32 => 00:00:00:00:01:02 2
